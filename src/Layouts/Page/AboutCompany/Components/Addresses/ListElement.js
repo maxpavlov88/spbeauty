@@ -6,12 +6,10 @@ const Option = styled.div`
     outline: none;
     font-size: 15px;
     color: #666787;
-    border: solid rgba(100, 116, 139, 0.12);
 `;
 const Iconic = styled.div`
     outline: none;
     color: #666787;
-    border: solid rgba(100, 116, 139, 0.12);
 `;
 
 const Str = styled.div`
@@ -20,9 +18,9 @@ const Str = styled.div`
 `;
 function ListElement(props) {
     return (
-        <Str className='d-flex flex-row align-items-center'>
-            <Option className='flex-grow-1 px-3 py-3 mb-2'>{props.children}</Option>
-            <Iconic className='d-flex  justify-content-between px-3 pt-3 pb-2 mb-2'>  
+        <Str className='d-flex flex-row align-items-center me-2'>
+            <Option className='flex-grow-1 px-4 py-3 mb-2'>{props.children}</Option>
+            <Iconic className='d-flex justify-content-between px-3 pt-3 pb-3 mb-2 gap-1'>  
                 <EditIcon>Ред.</EditIcon>
                 <RemoveIcon>Удл.</RemoveIcon>
             </Iconic>  

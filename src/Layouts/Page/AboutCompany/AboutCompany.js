@@ -7,15 +7,15 @@ function AboutCompany() {
             <div class="row">
                 <Heading/> {/* Заголовок и кнопка справа */}
             </div>   
-            <div class="row">
-                <div class="col me-6">
+                <div class="row">
+                <div class="col">    
                 <General/>  {/* Основная информация вроде названия, типа и телефона */}
                 </div> 
-                <div class="col mt=5">
+                <div class="col">
                 <Addresses/> {/* Список доступных адресов заведений */}
-                </div>       
+                </div> 
+                </div>      
 	         </div>  
-        </div>
     );
 }
 
